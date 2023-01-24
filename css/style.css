@@ -1,0 +1,64 @@
+.custom-signup-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-signup-container form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel {
+    height: 500px;
+    margin-bottom: 100px;
+    /* Adjust this value to change the height of the carousel */
+}
+.container-fluid{
+    padding: 0px;
+}
+.custom-card{
+    /* min-height: 250px; */
+    /* max-height: 500px; */
+    height: 300px;
+}
+.card-img-top{
+    height: 60%;
+    object-fit: cover;
+}
+.card-body{
+    height: 40%;
+}
+.wrapper{
+    /* padding-top: 10px; */
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.shoe-wrapper h2{
+    margin-bottom: 50px;
+}
+.single-product-image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.single-product-detail-container{
+    max-height: 500px;
+}
+.single-product-detail{
+    height: 80%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.single-product-buttons{
+    height: 20%;
+}

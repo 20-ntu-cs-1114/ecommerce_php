@@ -1,0 +1,49 @@
+.custom-signup-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-signup-container form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.nav {
+    float: left;
+    width: 100px;
+    background-color: rgb(48, 48, 48);
+    min-height: 100vh;
+}
+
+.nav ul {
+    width: 100%;
+    list-style: none;
+    padding: 20px 10px;
+}
+
+.nav ul li {
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+}
+
+.nav ul li:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-item>img {
+    object-fit: cover;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.carousel {
+    height: 500px;
+    /* Adjust this value to change the height of the carousel */
+}
